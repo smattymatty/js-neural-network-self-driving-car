@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    background:darkgray;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+#verticalButtons{
+    display:flex;
+    flex-direction:column;
+}
+button {
+    border:none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin:2px;
+    cursor:pointer
+}
+button:hover{
+    background:lightblue
+}
+#networkCanvas{
+    background:black
+}
+#carCanvas{
+    background:lightgray
+}
+#userInterface{
+    display:flex;
+    flex-direction:column;
+    margin:1rem;
+    position:fixed;
+    max-width: fit-content;
+    top:0;
+    left: 50%;
+    right:0;
+    z-index: 2;
+    background:lightgray;
+    padding:1rem;
+    border:0.2rem solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+    opacity: 0.85;
+    display: block;
+}
+
+.topButtons{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:1rem;
+    justify-content: flex-end!important;
+}
+
+.centerDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.centerDiv * {
+    display: flex;
+    justify-content: center;
+}
+
+
+#log{
+    margin:1rem;
+    background:#1f1f1f;
+    padding:1rem;
+    border:0.2rem solid;
+    border-color: aliceblue;
+}
+
+#logText{
+    color:white;
+    font: size 0.9rem;
+    min-width: 28rem;
+}
